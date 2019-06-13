@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import LandingPage from './LandingPage';
 import About from './About';
 import Gallery from './Gallery';
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/contact' component={Contact}/>
         <Route component={Default}/>
       </Switch>
+      <Footer/>
     </BrowserRouter>
   );
 }
