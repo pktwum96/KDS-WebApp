@@ -2,8 +2,9 @@ import React from 'react';
 import Carousel from './Carousel.js';
 import Stats from './Stats.js';
 import AboutHome from './About.js';
-import './styles/LandingPage.css';
+import JoinUs from './JoinUs.js';
 import Leadership from './Leadership.js';
+import './styles/LandingPage.css';
 
 class LandingPage extends React.Component {
 
@@ -25,6 +26,7 @@ class LandingPage extends React.Component {
         <AboutHome/>
         <Stats/>
         <Leadership/>
+        <JoinUs/>
       </div>
     )
   }

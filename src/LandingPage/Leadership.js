@@ -6,6 +6,7 @@ class Leadership extends React.Component {
           return (
                <div id="Leadership" className="py-5">
                <div className="container text-center">
+               <h3>Leadership</h3>
                <div className="row">
                <div className="col-md-4">
 
@@ -18,10 +19,7 @@ class Leadership extends React.Component {
                <h1 className="username">Percy Ohene Nyanteh</h1>
                <h2 className="profession"> President </h2>
                <p className="descricao">Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que
-               pode alegrar sua vidis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut
-               interdum diam laoreet. Sed non consequat odio. Suco
-               de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</p>
-
+               pode alegrar sua vidis.</p>
                <div className="socialmedia">
                <a href="/" className="button-facebook"><i className="fab fa-facebook-square"></i></a>
                <a href="/" className="button-instagram"><i className="fab fa-instagram"></i></a>
@@ -42,10 +40,7 @@ class Leadership extends React.Component {
                <h1 className="username">Esinam Osei-Bonsu</h1>
                <h2 className="profession"> Vice-President </h2>
                <p className="descricao">Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que
-               pode alegrar sua vidis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut
-               interdum diam laoreet. Sed non consequat odio. Suco
-               de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</p>
-
+               pode alegrar sua vidis.</p>
                <div className="socialmedia">
                <a href="/" className="button-facebook"><i className="fab fa-facebook-square"></i></a>
                <a href="/" className="button-instagram"><i className="fab fa-instagram"></i></a>
@@ -66,10 +61,7 @@ class Leadership extends React.Component {
                <h1 className="username">Ida Masley</h1>
                <h2 className="profession"> Electoral Commissioner </h2>
                <p className="descricao">Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que
-               pode alegrar sua vidis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut
-               interdum diam laoreet. Sed non consequat odio. Suco
-               de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</p>
-
+               pode alegrar sua vidis. </p>
                <div className="socialmedia">
                <a href="/" className="button-facebook"><i className="fab fa-facebook-square"></i></a>
                <a href="/" className="button-instagram"><i className="fab fa-instagram"></i></a>
