@@ -8,7 +8,7 @@ class Leadership extends React.Component {
                <div className="container text-center">
                <h3>Leadership</h3>
                <div className="row">
-               <div className="col-md-4">
+               <div className="col-md-4 mx-auto">
 
                <div className="profile-body my-3">
                <div className="photo">
@@ -29,28 +29,7 @@ class Leadership extends React.Component {
                </div>
                </div>
 
-               <div className="col-md-4">
-
-               <div className="profile-body my-3">
-               <div className="photo">
-               <img src="https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg"
-               className="image--cover" alt="kds-member"/>
-               </div>
-               <div className="profile">
-               <h1 className="username">Esinam Osei-Bonsu</h1>
-               <h2 className="profession"> Vice-President </h2>
-               <p className="descricao">Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que
-               pode alegrar sua vidis.</p>
-               <div className="socialmedia">
-               <a href="/" className="button-facebook"><i className="fab fa-facebook-square"></i></a>
-               <a href="/" className="button-instagram"><i className="fab fa-instagram"></i></a>
-               <a href="/" className="button-twitter"><i className="fab fa-twitter-square"></i></a>
-               </div>
-               </div>
-               </div>
-               </div>
-
-               <div className="col-md-4">
+               <div className="col-md-4 mx-auto">
 
                <div className="profile-body my-3">
                <div className="photo">
