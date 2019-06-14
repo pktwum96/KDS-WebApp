@@ -3,6 +3,89 @@
   color: #ffffff;
 }
 
+#Leadership{
+  background-color: #000000;
+}
+
 #Stats i {
   font-size:3rem!important;
+}
+
+
+.profile {
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+background-color: #f5f5f5;
+padding: 20px;
+z-index: 0;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.photo {
+    margin: ;
+}
+
+.image--cover {
+    width: 10rem;
+    height: 10rem;
+    border: #fff 3px solid;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.username,
+.profession,
+.locationname,
+.descricao {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 1px;
+}
+
+.username {
+
+    font-size: 20pt;
+    margin: 2px
+}
+
+.profession {
+    font-size: 14pt;
+}
+
+
+.descricao {
+    border-top: #969696 solid 1px;
+    padding: 10px;
+    font-size: 11pt;
+    margin: 5px;
+}
+
+.button-facebook,
+.button-instagram,
+.button-twitter,
+.button-whatsapp {
+    padding: 5px;
+    font-size: 30pt;
+}
+.button-facebook {
+    color: #3C5A99;
+}
+.button-instagram {
+  color: #893dc2;
+}
+.button-twitter {
+    color: #1DA1F2;
+}
+.button-whatsapp {
+    color: #4AC959;
 }

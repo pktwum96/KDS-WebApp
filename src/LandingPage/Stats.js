@@ -23,7 +23,7 @@ class Stats extends React.Component {
                 </div>
                 <div className="col-md-3 py-3">
                   <i className="fas fa-trophy"></i>
-                  <h6>80+ accolades (and counting)</h6>
+                  <h6>80+ accolades<br/>(and counting)</h6>
                 </div>
             </div>
           </div>

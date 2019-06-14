@@ -3,6 +3,7 @@ import Carousel from './Carousel.js';
 import Stats from './Stats.js';
 import AboutHome from './About.js';
 import './styles/LandingPage.css';
+import Leadership from './Leadership.js';
 
 class LandingPage extends React.Component {
 
@@ -23,6 +24,7 @@ class LandingPage extends React.Component {
         </div>
         <AboutHome/>
         <Stats/>
+        <Leadership/>
       </div>
     )
   }
