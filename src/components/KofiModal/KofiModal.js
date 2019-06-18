@@ -1,6 +1,6 @@
 import React from 'react';
 import './KofiModal.scss';
-import Kofi from '../../LandingPage/img/group.jpg'
+import Kofi from '../../LandingPage/img/Duke.jpg'
 
 class KofiModal extends React.Component {
 
