@@ -2,7 +2,7 @@ import React from 'react';
 import Jenn from './img/Jenn.jpg';
 import Duke from './img/Duke.jpg';
 import Shekina from './img/Shekina.jpg';
-import Group from './img/Group.jpg';
+import Gang from './img/Gang.jpg';
 
 class Carousel extends React.Component {
 
@@ -12,7 +12,7 @@ class Carousel extends React.Component {
       <div id="Carousel" className="carousel slide carousel-fade" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Group} className="d-block w-100" alt="KDS members"/>
+            <img src={Gang} className="d-block w-100" alt="KDS members"/>
           </div>
           <div className="carousel-item">
             <img src={Shekina} className="d-block w-100" alt="Victory"/>
