@@ -1,9 +1,8 @@
 import React from 'react';
-import Enactus from './img/enactus.jpg';
-import Gang from './img/gang.jpg';
-import Image from './img/image.jpg';
-import Name from './img/name.jpg';
-import Group from './img/group.jpg';
+import Jenn from './img/Jenn.jpg';
+import Duke from './img/Duke.jpg';
+import Shekina from './img/Shekina.jpg';
+import Group from './img/Group.jpg';
 
 class Carousel extends React.Component {
 
@@ -13,19 +12,16 @@ class Carousel extends React.Component {
       <div id="Carousel" className="carousel slide carousel-fade" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Name} className="d-block w-100" alt="KDS members"/>
+            <img src={Group} className="d-block w-100" alt="KDS members"/>
           </div>
           <div className="carousel-item">
-            <img src={Image} className="d-block w-100" alt="Victory"/>
+            <img src={Shekina} className="d-block w-100" alt="Victory"/>
           </div>
           <div className="carousel-item">
-            <img src={Gang} className="d-block w-100" alt="Everbody"/>
+            <img src={Duke} className="d-block w-100" alt="Everbody"/>
           </div>
           <div className="carousel-item">
-            <img src={Enactus} className="d-block w-100" alt="people"/>
-          </div>
-          <div className="carousel-item">
-            <img src={Group} className="d-block w-100" alt="Everbody"/>
+            <img src={Jenn} className="d-block w-100" alt="people"/>
           </div>
         </div>
         <a className="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
