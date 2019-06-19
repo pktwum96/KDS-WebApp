@@ -13,7 +13,7 @@ class JoinUs extends React.Component {
                     </h6>
                </span>
                <hr/>
-               <Link to='/about'><button className="btn btn-outline-success">Join Us</button></Link>
+               <Link to='/contact'><button className="btn btn-outline-success">Join Us</button></Link>
           </div>
       </div>
     )

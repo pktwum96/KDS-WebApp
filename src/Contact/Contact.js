@@ -8,7 +8,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-         <div className="container text-center">
+         <div className="container text-center pb-5">
                <div className="image-contain text-white">
                     <h5>Get In Touch</h5>
                </div>
