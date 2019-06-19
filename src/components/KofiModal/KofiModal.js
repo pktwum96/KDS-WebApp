@@ -6,7 +6,7 @@ class KofiModal extends React.Component {
 
   render(){
     return (
-         <div className="modal fade" id="KofiModal" tabindex="-1" role="dialog" aria-labelledby="KofiModal" aria-hidden="true">
+         <div className="modal fade" id="KofiModal" tabIndex="-1" role="dialog" aria-labelledby="KofiModal" aria-hidden="true">
            <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
              <div className="modal-content">
                <div className="modal-body p-0">
@@ -58,37 +58,37 @@ class KofiModal extends React.Component {
                      </div>
 */}
                      <div className="profile-card-social">
-                       <a href="https://www.facebook.com/kofi.twumampofo" className="profile-card-social__item facebook" target="_blank">
+                       <a href="https://www.facebook.com/kofi.twumampofo" className="profile-card-social__item facebook" target="_blank"  rel="noopener noreferrer">
                          <span className="icon-font">
                              <svg className="icon"><use xlinkHref="#icon-facebook"></use></svg>
                          </span>
                        </a>
 
-                       <a href="https://twitter.com/kofiapeakorang" className="profile-card-social__item twitter" target="_blank">
+                       <a href="https://twitter.com/kofiapeakorang" className="profile-card-social__item twitter" target="_blank"  rel="noopener noreferrer">
                          <span className="icon-font">
                              <svg className="icon"><use xlinkHref="#icon-twitter"></use></svg>
                          </span>
                        </a>
 
-                       <a href="https://www.instagram.com/kofiapeakorang" className="profile-card-social__item instagram" target="_blank">
+                       <a href="https://www.instagram.com/kofiapeakorang" className="profile-card-social__item instagram" target="_blank"  rel="noopener noreferrer">
                          <span className="icon-font">
                              <svg className="icon"><use xlinkHref="#icon-instagram"></use></svg>
                          </span>
                        </a>
 
-                       <a href="https://www.behance.net/kofiapeakorang" className="profile-card-social__item behance" target="_blank">
+                       <a href="https://www.behance.net/kofiapeakorang" className="profile-card-social__item behance" target="_blank"  rel="noopener noreferrer">
                          <span className="icon-font">
                              <svg className="icon"><use xlinkHref="#icon-behance"></use></svg>
                          </span>
                        </a>
+                       <a href="https://github.com/pktwum96" className="profile-card-social__item github" target="_blank" rel="noopener noreferrer">
 
-                       <a href="https://github.com/pktwum96" className="profile-card-social__item github" target="_blank">
                          <span className="icon-font">
                              <svg className="icon"><use xlinkHref="#icon-github"></use></svg>
                          </span>
                        </a>
 
-                     <a href="https://gh.linkedin.com/in/kofiapeakorang" className="profile-card-social__item linkedin" target="_blank">
+                     <a href="https://gh.linkedin.com/in/kofiapeakorang" className="profile-card-social__item linkedin" target="_blank"  rel="noopener noreferrer">
                        <span className="icon-font">
                            <svg className="icon"><use xlinkHref="#icon-linkedin"></use></svg>
                        </span>

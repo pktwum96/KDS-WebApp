@@ -6,7 +6,7 @@ class JoinUs extends React.Component {
     return (
       <div id="JoinUs" className="py-5">
           <div className="container text-center">
-               <span clasName="quote">
+               <span className="quote">
                     <h6 className="d-flex mx-auto">
                          <i className="fas fa-quote-left ml-auto mr-4"></i>Time spent arguing is almost never wasted
                          <i className="fas fa-quote-right mr-auto ml-4"></i>
