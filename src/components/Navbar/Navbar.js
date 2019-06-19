@@ -14,7 +14,7 @@ class Navbar extends React.Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
+            <li className="nav-item">
               <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
@@ -25,10 +25,10 @@ class Navbar extends React.Component {
                 Members
               </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/">Leadership</Link>
-                <Link className="dropdown-item" to="/">Current Members</Link>
-
-                <Link className="dropdown-item" to="/">Alumni</Link>
+                <Link className="dropdown-item" to="/members">Leadership</Link>
+                <Link className="dropdown-item" to="/members">Current Members</Link>
+                <Link className="dropdown-item" to="/members">Alumni</Link>
+                <Link className="dropdown-item" to="/members">Patrons</Link>
               </div>
             </li>
             <li className="nav-item">
