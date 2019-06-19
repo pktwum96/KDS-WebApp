@@ -3,6 +3,7 @@ import Jenn from './img/Jenn.jpg';
 import Duke from './img/Duke.jpg';
 import Shekina from './img/Shekina.jpg';
 import Gang from './img/Gang.jpg';
+import BoaMus from '../images/BoaMus.jpg';
 
 class Carousel extends React.Component {
 
@@ -19,6 +20,9 @@ class Carousel extends React.Component {
           </div>
           <div className="carousel-item">
             <img src={Duke} className="d-block w-100" alt="Everbody"/>
+          </div>
+          <div className="carousel-item">
+            <img src={BoaMus} className="d-block w-100" alt="Everbody"/>
           </div>
           <div className="carousel-item">
             <img src={Jenn} className="d-block w-100" alt="people"/>
