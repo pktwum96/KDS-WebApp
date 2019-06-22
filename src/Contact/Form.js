@@ -6,7 +6,7 @@ class Form extends React.Component {
 
   render() {
     return (
-         <form className="pb-5" data-netlify="true">
+         <form name="contact" className="pb-5" data-netlify="true">
            <div className="form-group">
              <label htmlFor="contactName">Name</label>
              <input type="text" name="name" className="form-control" id="contactName" placeholder="Akwasi Mintah"/>
